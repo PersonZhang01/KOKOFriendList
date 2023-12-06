@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF72FC312B1EE50A00FD96E9 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC302B1EE50A00FD96E9 /* Encodable+Extension.swift */; };
+		FF72FC332B1EE53500FD96E9 /* Publisher+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC322B1EE53500FD96E9 /* Publisher+Extension.swift */; };
+		FF72FC352B1EE56900FD96E9 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC342B1EE56900FD96E9 /* UITableView+Extension.swift */; };
+		FF72FC372B1EE5A800FD96E9 /* Nib+Reusable+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC362B1EE5A800FD96E9 /* Nib+Reusable+Common.swift */; };
+		FF72FC392B1EE5D200FD96E9 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC382B1EE5D200FD96E9 /* UITableViewCell+Extension.swift */; };
+		FF72FC3B2B1EE5F700FD96E9 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC3A2B1EE5F700FD96E9 /* UIResponder+Extension.swift */; };
+		FF72FC3D2B1EE61E00FD96E9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC3C2B1EE61E00FD96E9 /* UIView+Extension.swift */; };
+		FF72FC3F2B1EE64700FD96E9 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC3E2B1EE64700FD96E9 /* UIApplication+Extension.swift */; };
+		FF72FC412B1EE68500FD96E9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC402B1EE68500FD96E9 /* UIColor+Extension.swift */; };
+		FF72FC432B1EE6B700FD96E9 /* DispatchTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC422B1EE6B700FD96E9 /* DispatchTime+Extension.swift */; };
+		FF72FC452B1EE6E700FD96E9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC442B1EE6E700FD96E9 /* Constant.swift */; };
+		FF72FC472B1EF15600FD96E9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC462B1EF15600FD96E9 /* APIManager.swift */; };
+		FF72FC492B1EF1B400FD96E9 /* APIComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC482B1EF1B400FD96E9 /* APIComposition.swift */; };
+		FF72FC4B2B1EF2C300FD96E9 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC4A2B1EF2C300FD96E9 /* FriendList.swift */; };
+		FF72FC4E2B1EF38400FD96E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF72FC4D2B1EF38400FD96E9 /* Alamofire */; };
+		FF72FC502B1EF3A000FD96E9 /* FriendListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC4F2B1EF3A000FD96E9 /* FriendListUseCase.swift */; };
+		FF72FC522B1EF70600FD96E9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC512B1EF70600FD96E9 /* UserInfo.swift */; };
+		FF72FC542B1EF71900FD96E9 /* UserInfoUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC532B1EF71900FD96E9 /* UserInfoUseCase.swift */; };
+		FF72FC562B1EFD0800FD96E9 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC552B1EFD0800FD96E9 /* FriendListViewModel.swift */; };
+		FF72FC582B1F03FB00FD96E9 /* FriendListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC572B1F03FB00FD96E9 /* FriendListTableViewCell.swift */; };
+		FF72FC5A2B1F066800FD96E9 /* FriendListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF72FC592B1F066800FD96E9 /* FriendListTableViewCell.xib */; };
+		FF72FC5D2B20503500FD96E9 /* SegmentedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC5C2B20503500FD96E9 /* SegmentedButton.swift */; };
+		FF72FC602B20596C00FD96E9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC5F2B20596C00FD96E9 /* SearchView.swift */; };
+		FF72FC622B2059C900FD96E9 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF72FC612B2059C900FD96E9 /* SearchView.xib */; };
+		FF72FC652B20746300FD96E9 /* InviteListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC642B20746300FD96E9 /* InviteListTableViewCell.swift */; };
+		FF72FC672B2074CD00FD96E9 /* InviteListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF72FC662B2074CD00FD96E9 /* InviteListTableViewCell.xib */; };
+		FF72FC692B20A32400FD96E9 /* InviteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FC682B20A32400FD96E9 /* InviteListViewController.swift */; };
+		FFAC6BA32B1ED00600F573EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BA22B1ED00600F573EA /* AppDelegate.swift */; };
+		FFAC6BA52B1ED00600F573EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BA42B1ED00600F573EA /* SceneDelegate.swift */; };
+		FFAC6BA72B1ED00600F573EA /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BA62B1ED00600F573EA /* FriendListViewController.swift */; };
+		FFAC6BAA2B1ED00600F573EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAC6BA82B1ED00600F573EA /* Main.storyboard */; };
+		FFAC6BAC2B1ED00800F573EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAC6BAB2B1ED00800F573EA /* Assets.xcassets */; };
+		FFAC6BAF2B1ED00800F573EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAC6BAD2B1ED00800F573EA /* LaunchScreen.storyboard */; };
+		FFAC6BBA2B1ED00800F573EA /* FriendListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BB92B1ED00800F573EA /* FriendListTests.swift */; };
+		FFAC6BC42B1ED00800F573EA /* FriendListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BC32B1ED00800F573EA /* FriendListUITests.swift */; };
+		FFAC6BC62B1ED00800F573EA /* FriendListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC6BC52B1ED00800F573EA /* FriendListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFAC6BB62B1ED00800F573EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFAC6B972B1ED00600F573EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFAC6B9E2B1ED00600F573EA;
+			remoteInfo = FriendList;
+		};
+		FFAC6BC02B1ED00800F573EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFAC6B972B1ED00600F573EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFAC6B9E2B1ED00600F573EA;
+			remoteInfo = FriendList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF72FC302B1EE50A00FD96E9 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC322B1EE53500FD96E9 /* Publisher+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC342B1EE56900FD96E9 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC362B1EE5A800FD96E9 /* Nib+Reusable+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nib+Reusable+Common.swift"; sourceTree = "<group>"; };
+		FF72FC382B1EE5D200FD96E9 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC3A2B1EE5F700FD96E9 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC3C2B1EE61E00FD96E9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC3E2B1EE64700FD96E9 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC402B1EE68500FD96E9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC422B1EE6B700FD96E9 /* DispatchTime+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Extension.swift"; sourceTree = "<group>"; };
+		FF72FC442B1EE6E700FD96E9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FF72FC462B1EF15600FD96E9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FF72FC482B1EF1B400FD96E9 /* APIComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIComposition.swift; sourceTree = "<group>"; };
+		FF72FC4A2B1EF2C300FD96E9 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		FF72FC4F2B1EF3A000FD96E9 /* FriendListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListUseCase.swift; sourceTree = "<group>"; };
+		FF72FC512B1EF70600FD96E9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		FF72FC532B1EF71900FD96E9 /* UserInfoUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoUseCase.swift; sourceTree = "<group>"; };
+		FF72FC552B1EFD0800FD96E9 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
+		FF72FC572B1F03FB00FD96E9 /* FriendListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewCell.swift; sourceTree = "<group>"; };
+		FF72FC592B1F066800FD96E9 /* FriendListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListTableViewCell.xib; sourceTree = "<group>"; };
+		FF72FC5C2B20503500FD96E9 /* SegmentedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedButton.swift; sourceTree = "<group>"; };
+		FF72FC5F2B20596C00FD96E9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FF72FC612B2059C900FD96E9 /* SearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		FF72FC642B20746300FD96E9 /* InviteListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteListTableViewCell.swift; sourceTree = "<group>"; };
+		FF72FC662B2074CD00FD96E9 /* InviteListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteListTableViewCell.xib; sourceTree = "<group>"; };
+		FF72FC682B20A32400FD96E9 /* InviteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteListViewController.swift; sourceTree = "<group>"; };
+		FFAC6B9F2B1ED00600F573EA /* KOKOFriendList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKOFriendList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAC6BA22B1ED00600F573EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFAC6BA42B1ED00600F573EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFAC6BA62B1ED00600F573EA /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		FFAC6BA92B1ED00600F573EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFAC6BAB2B1ED00800F573EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFAC6BAE2B1ED00800F573EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFAC6BB02B1ED00800F573EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAC6BB52B1ED00800F573EA /* KOKOFriendListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOKOFriendListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAC6BB92B1ED00800F573EA /* FriendListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTests.swift; sourceTree = "<group>"; };
+		FFAC6BBF2B1ED00800F573EA /* KOKOFriendListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOKOFriendListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAC6BC32B1ED00800F573EA /* FriendListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListUITests.swift; sourceTree = "<group>"; };
+		FFAC6BC52B1ED00800F573EA /* FriendListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFAC6B9C2B1ED00600F573EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72FC4E2B1EF38400FD96E9 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BB22B1ED00800F573EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BBC2B1ED00800F573EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF72FC5B2B20500F00FD96E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC5E2B20595B00FD96E9 /* SearchView */,
+				FF72FC5C2B20503500FD96E9 /* SegmentedButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FF72FC5E2B20595B00FD96E9 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC612B2059C900FD96E9 /* SearchView.xib */,
+				FF72FC5F2B20596C00FD96E9 /* SearchView.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		FF72FC632B20743300FD96E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC572B1F03FB00FD96E9 /* FriendListTableViewCell.swift */,
+				FF72FC592B1F066800FD96E9 /* FriendListTableViewCell.xib */,
+				FF72FC642B20746300FD96E9 /* InviteListTableViewCell.swift */,
+				FF72FC662B2074CD00FD96E9 /* InviteListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FFAC6B962B1ED00600F573EA = {
+			isa = PBXGroup;
+			children = (
+				FFAC6BA12B1ED00600F573EA /* KOKOFriendList */,
+				FFAC6BB82B1ED00800F573EA /* FriendListTests */,
+				FFAC6BC22B1ED00800F573EA /* FriendListUITests */,
+				FFAC6BA02B1ED00600F573EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFAC6BA02B1ED00600F573EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC6B9F2B1ED00600F573EA /* KOKOFriendList.app */,
+				FFAC6BB52B1ED00800F573EA /* KOKOFriendListTests.xctest */,
+				FFAC6BBF2B1ED00800F573EA /* KOKOFriendListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFAC6BA12B1ED00600F573EA /* KOKOFriendList */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC632B20743300FD96E9 /* Cell */,
+				FFAC6BD22B1EE37300F573EA /* Utility */,
+				FFAC6BD32B1EE37E00F573EA /* API */,
+				FFAC6BA22B1ED00600F573EA /* AppDelegate.swift */,
+				FFAC6BA42B1ED00600F573EA /* SceneDelegate.swift */,
+				FF72FC552B1EFD0800FD96E9 /* FriendListViewModel.swift */,
+				FFAC6BA62B1ED00600F573EA /* FriendListViewController.swift */,
+				FF72FC682B20A32400FD96E9 /* InviteListViewController.swift */,
+				FFAC6BA82B1ED00600F573EA /* Main.storyboard */,
+				FFAC6BAB2B1ED00800F573EA /* Assets.xcassets */,
+				FFAC6BAD2B1ED00800F573EA /* LaunchScreen.storyboard */,
+				FFAC6BB02B1ED00800F573EA /* Info.plist */,
+			);
+			path = KOKOFriendList;
+			sourceTree = "<group>";
+		};
+		FFAC6BB82B1ED00800F573EA /* FriendListTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC6BB92B1ED00800F573EA /* FriendListTests.swift */,
+			);
+			path = FriendListTests;
+			sourceTree = "<group>";
+		};
+		FFAC6BC22B1ED00800F573EA /* FriendListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC6BC32B1ED00800F573EA /* FriendListUITests.swift */,
+				FFAC6BC52B1ED00800F573EA /* FriendListUITestsLaunchTests.swift */,
+			);
+			path = FriendListUITests;
+			sourceTree = "<group>";
+		};
+		FFAC6BD22B1EE37300F573EA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC5B2B20500F00FD96E9 /* UI */,
+				FF72FC302B1EE50A00FD96E9 /* Encodable+Extension.swift */,
+				FF72FC322B1EE53500FD96E9 /* Publisher+Extension.swift */,
+				FF72FC342B1EE56900FD96E9 /* UITableView+Extension.swift */,
+				FF72FC362B1EE5A800FD96E9 /* Nib+Reusable+Common.swift */,
+				FF72FC382B1EE5D200FD96E9 /* UITableViewCell+Extension.swift */,
+				FF72FC3C2B1EE61E00FD96E9 /* UIView+Extension.swift */,
+				FF72FC3E2B1EE64700FD96E9 /* UIApplication+Extension.swift */,
+				FF72FC402B1EE68500FD96E9 /* UIColor+Extension.swift */,
+				FF72FC422B1EE6B700FD96E9 /* DispatchTime+Extension.swift */,
+				FF72FC3A2B1EE5F700FD96E9 /* UIResponder+Extension.swift */,
+				FF72FC442B1EE6E700FD96E9 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FFAC6BD32B1EE37E00F573EA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FC462B1EF15600FD96E9 /* APIManager.swift */,
+				FF72FC482B1EF1B400FD96E9 /* APIComposition.swift */,
+				FF72FC4A2B1EF2C300FD96E9 /* FriendList.swift */,
+				FF72FC4F2B1EF3A000FD96E9 /* FriendListUseCase.swift */,
+				FF72FC512B1EF70600FD96E9 /* UserInfo.swift */,
+				FF72FC532B1EF71900FD96E9 /* UserInfoUseCase.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFAC6B9E2B1ED00600F573EA /* KOKOFriendList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAC6BC92B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendList" */;
+			buildPhases = (
+				FFAC6B9B2B1ED00600F573EA /* Sources */,
+				FFAC6B9C2B1ED00600F573EA /* Frameworks */,
+				FFAC6B9D2B1ED00600F573EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOKOFriendList;
+			packageProductDependencies = (
+				FF72FC4D2B1EF38400FD96E9 /* Alamofire */,
+			);
+			productName = FriendList;
+			productReference = FFAC6B9F2B1ED00600F573EA /* KOKOFriendList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFAC6BB42B1ED00800F573EA /* KOKOFriendListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAC6BCC2B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendListTests" */;
+			buildPhases = (
+				FFAC6BB12B1ED00800F573EA /* Sources */,
+				FFAC6BB22B1ED00800F573EA /* Frameworks */,
+				FFAC6BB32B1ED00800F573EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFAC6BB72B1ED00800F573EA /* PBXTargetDependency */,
+			);
+			name = KOKOFriendListTests;
+			productName = FriendListTests;
+			productReference = FFAC6BB52B1ED00800F573EA /* KOKOFriendListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFAC6BBE2B1ED00800F573EA /* KOKOFriendListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAC6BCF2B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendListUITests" */;
+			buildPhases = (
+				FFAC6BBB2B1ED00800F573EA /* Sources */,
+				FFAC6BBC2B1ED00800F573EA /* Frameworks */,
+				FFAC6BBD2B1ED00800F573EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFAC6BC12B1ED00800F573EA /* PBXTargetDependency */,
+			);
+			name = KOKOFriendListUITests;
+			productName = FriendListUITests;
+			productReference = FFAC6BBF2B1ED00800F573EA /* KOKOFriendListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFAC6B972B1ED00600F573EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FFAC6B9E2B1ED00600F573EA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FFAC6BB42B1ED00800F573EA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FFAC6B9E2B1ED00600F573EA;
+					};
+					FFAC6BBE2B1ED00800F573EA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FFAC6B9E2B1ED00600F573EA;
+					};
+				};
+			};
+			buildConfigurationList = FFAC6B9A2B1ED00600F573EA /* Build configuration list for PBXProject "KOKOFriendList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFAC6B962B1ED00600F573EA;
+			packageReferences = (
+				FF72FC4C2B1EF38400FD96E9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = FFAC6BA02B1ED00600F573EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFAC6B9E2B1ED00600F573EA /* KOKOFriendList */,
+				FFAC6BB42B1ED00800F573EA /* KOKOFriendListTests */,
+				FFAC6BBE2B1ED00800F573EA /* KOKOFriendListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFAC6B9D2B1ED00600F573EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAC6BAF2B1ED00800F573EA /* LaunchScreen.storyboard in Resources */,
+				FF72FC622B2059C900FD96E9 /* SearchView.xib in Resources */,
+				FF72FC672B2074CD00FD96E9 /* InviteListTableViewCell.xib in Resources */,
+				FFAC6BAC2B1ED00800F573EA /* Assets.xcassets in Resources */,
+				FFAC6BAA2B1ED00600F573EA /* Main.storyboard in Resources */,
+				FF72FC5A2B1F066800FD96E9 /* FriendListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BB32B1ED00800F573EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BBD2B1ED00800F573EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFAC6B9B2B1ED00600F573EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72FC542B1EF71900FD96E9 /* UserInfoUseCase.swift in Sources */,
+				FF72FC522B1EF70600FD96E9 /* UserInfo.swift in Sources */,
+				FF72FC432B1EE6B700FD96E9 /* DispatchTime+Extension.swift in Sources */,
+				FFAC6BA72B1ED00600F573EA /* FriendListViewController.swift in Sources */,
+				FF72FC602B20596C00FD96E9 /* SearchView.swift in Sources */,
+				FF72FC692B20A32400FD96E9 /* InviteListViewController.swift in Sources */,
+				FF72FC312B1EE50A00FD96E9 /* Encodable+Extension.swift in Sources */,
+				FFAC6BA32B1ED00600F573EA /* AppDelegate.swift in Sources */,
+				FF72FC412B1EE68500FD96E9 /* UIColor+Extension.swift in Sources */,
+				FF72FC582B1F03FB00FD96E9 /* FriendListTableViewCell.swift in Sources */,
+				FF72FC392B1EE5D200FD96E9 /* UITableViewCell+Extension.swift in Sources */,
+				FF72FC372B1EE5A800FD96E9 /* Nib+Reusable+Common.swift in Sources */,
+				FF72FC652B20746300FD96E9 /* InviteListTableViewCell.swift in Sources */,
+				FF72FC502B1EF3A000FD96E9 /* FriendListUseCase.swift in Sources */,
+				FF72FC452B1EE6E700FD96E9 /* Constant.swift in Sources */,
+				FF72FC4B2B1EF2C300FD96E9 /* FriendList.swift in Sources */,
+				FF72FC3B2B1EE5F700FD96E9 /* UIResponder+Extension.swift in Sources */,
+				FF72FC5D2B20503500FD96E9 /* SegmentedButton.swift in Sources */,
+				FFAC6BA52B1ED00600F573EA /* SceneDelegate.swift in Sources */,
+				FF72FC332B1EE53500FD96E9 /* Publisher+Extension.swift in Sources */,
+				FF72FC3F2B1EE64700FD96E9 /* UIApplication+Extension.swift in Sources */,
+				FF72FC472B1EF15600FD96E9 /* APIManager.swift in Sources */,
+				FF72FC562B1EFD0800FD96E9 /* FriendListViewModel.swift in Sources */,
+				FF72FC492B1EF1B400FD96E9 /* APIComposition.swift in Sources */,
+				FF72FC3D2B1EE61E00FD96E9 /* UIView+Extension.swift in Sources */,
+				FF72FC352B1EE56900FD96E9 /* UITableView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BB12B1ED00800F573EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAC6BBA2B1ED00800F573EA /* FriendListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAC6BBB2B1ED00800F573EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAC6BC62B1ED00800F573EA /* FriendListUITestsLaunchTests.swift in Sources */,
+				FFAC6BC42B1ED00800F573EA /* FriendListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFAC6BB72B1ED00800F573EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFAC6B9E2B1ED00600F573EA /* KOKOFriendList */;
+			targetProxy = FFAC6BB62B1ED00800F573EA /* PBXContainerItemProxy */;
+		};
+		FFAC6BC12B1ED00800F573EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFAC6B9E2B1ED00600F573EA /* KOKOFriendList */;
+			targetProxy = FFAC6BC02B1ED00800F573EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFAC6BA82B1ED00600F573EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFAC6BA92B1ED00600F573EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFAC6BAD2B1ED00800F573EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFAC6BAE2B1ED00800F573EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFAC6BC72B1ED00800F573EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFAC6BC82B1ED00800F573EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFAC6BCA2B1ED00800F573EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KOKOFriendList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFAC6BCB2B1ED00800F573EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KOKOFriendList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFAC6BCD2B1ED00800F573EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOKOFriendList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KOKOFriendList";
+			};
+			name = Debug;
+		};
+		FFAC6BCE2B1ED00800F573EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOKOFriendList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KOKOFriendList";
+			};
+			name = Release;
+		};
+		FFAC6BD02B1ED00800F573EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendList;
+			};
+			name = Debug;
+		};
+		FFAC6BD12B1ED00800F573EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.FriendListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFAC6B9A2B1ED00600F573EA /* Build configuration list for PBXProject "KOKOFriendList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAC6BC72B1ED00800F573EA /* Debug */,
+				FFAC6BC82B1ED00800F573EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAC6BC92B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAC6BCA2B1ED00800F573EA /* Debug */,
+				FFAC6BCB2B1ED00800F573EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAC6BCC2B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAC6BCD2B1ED00800F573EA /* Debug */,
+				FFAC6BCE2B1ED00800F573EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAC6BCF2B1ED00800F573EA /* Build configuration list for PBXNativeTarget "KOKOFriendListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAC6BD02B1ED00800F573EA /* Debug */,
+				FFAC6BD12B1ED00800F573EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF72FC4C2B1EF38400FD96E9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF72FC4D2B1EF38400FD96E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF72FC4C2B1EF38400FD96E9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FFAC6B972B1ED00600F573EA /* Project object */;
+}
