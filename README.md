@@ -9,8 +9,8 @@ iOS Swift Project
 
 ![friend1](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend1.png)
 ![friend2](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend2.png)
-![friend3](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend1.png)
-![friend4](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend1.png)
+![friend3](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend3.png)
+![friend4](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend4.png)
 
 
 
