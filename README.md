@@ -5,7 +5,7 @@ iOS Swift Project
 
 - 點擊右上方Scan可以切換4種好友列表
 - 好友列表支援下拉更新
-- 點擊搜尋框,畫面上推至搜尋框置頂，下拉更新或點擊Scan可復原
+- 點擊搜尋框，好友列表畫面上推置頂，且下拉更新或點擊Scan可復原
 
 ![friend1](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend1.png)
 ![friend2](https://raw.github.com/PersonZhang01/KOKOFriendList/main/Screenshot/friend2.png)
