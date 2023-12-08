@@ -34,7 +34,7 @@ class InviteListTableViewCell: UITableViewCell {
     
     private func configureUI() {
         cardView.setView(withCornerRadius: CornerRadiusSize.small, borderColor: .cellGray, borderWidth: 1)
-        cardView.setShadow()
+//        cardView.setShadow()
         hintLabel.text = Constant.invite
     }
     
