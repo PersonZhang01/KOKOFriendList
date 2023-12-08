@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K75-pN-2fo">
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K75-pN-2fo">
                         <rect key="frame" x="0.0" y="0.0" width="373" height="66"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gl4-T2-CEb">
@@ -60,14 +60,21 @@
                                     <constraint firstItem="jd3-JZ-Df7" firstAttribute="top" secondItem="gl4-T2-CEb" secondAttribute="top" id="QtL-yw-bqw"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eiM-ah-GDF">
+                                <rect key="frame" x="93.333333333333329" y="0.0" width="10" height="66"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="l1a-Aw-nf6"/>
+                                </constraints>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Gz-fz-kaQ">
-                                <rect key="frame" x="101.33333333333331" y="0.0" width="123.66666666666669" height="66"/>
+                                <rect key="frame" x="103.33333333333333" y="0.0" width="129.66666666666669" height="66"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6I-rh-ei4">
-                                        <rect key="frame" x="0.0" y="0.0" width="123.66666666666667" height="65"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="129.66666666666666" height="65"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMs-rP-hTi">
-                                                <rect key="frame" x="5.0000000000000071" y="0.0" width="118.66666666666669" height="65"/>
+                                                <rect key="frame" x="5.0000000000000071" y="0.0" width="124.66666666666669" height="65"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -82,7 +89,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYD-Cj-i8P">
-                                        <rect key="frame" x="0.0" y="65" width="123.66666666666667" height="1"/>
+                                        <rect key="frame" x="0.0" y="65" width="129.66666666666666" height="1"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.89411771299999998" blue="0.89411771299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="vID-UM-zWc"/>
